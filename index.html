@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>games</title>
+    <title>Gemstone Pioneers</title>
     <script>
         function redirectToSearch() {
             const searchInput = document.getElementById('linkInput');
@@ -15,13 +15,6 @@
                 return;
             }
             
-            // Create Google search URL with the query
-            const googleSearchUrl = 'https://www.google.com/search?q=' + encodeURIComponent(searchQuery);
-            
-            // Redirect to Google search
-            window.location.href = googleSearchUrl;
-        }
-
         function quickRedirect(url) {
             window.location.href = url;
         }
@@ -88,13 +81,12 @@
 </head>
 <body>
     <div class="container">
-        <h2>smth</h2>
+        <h2>The gemstone pioneers are an "advanced" coding team</h2>
         <input 
             type="text" 
             id="linkInput" 
-            placeholder="Enter search terms..."
+           
         >
-        <button class="redirect-button" onclick="redirectToSearch()">Search Google</button>
         
         <div class="button-group">
             <button class="quick-link" onclick="quickRedirect('https://marcoroscioli.github.io/tongue-twister/')">View Pasha's work</button>
